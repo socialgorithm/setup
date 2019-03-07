@@ -12,6 +12,6 @@ command -v uabc >/dev/null 2>&1 || npm install -g @socialgorithm/uabc
 
 # Ask which games
 read -p "What game are you competing in today? (e.g. tic-tac-toe): " GAME
-git clone git@github.com:socialgorithm/${GAME}-starter
+git clone https://github.com/socialgorithm/${GAME}-starter.git
 
 echo "Done!"
